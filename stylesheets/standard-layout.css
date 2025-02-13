@@ -1,0 +1,45 @@
+body {
+    background-color: blue;
+    background-image: url("https://c.tenor.com/2LQOdHCrA0YAAAAd/tenor.gif");
+    background-size:contain
+}
+
+h1 {
+    color:brown
+}
+
+img {
+    border-width: 10px;
+    border-color: black;
+    border-style: solid;
+}
+
+p {
+    color: pink;
+}
+
+.bold-red {
+    color: red;
+}
+
+.joHeader {
+    text-align: center;
+    padding: 20px;
+}
+
+.column {
+    float: left;
+    width: 33%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
